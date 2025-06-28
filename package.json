@@ -1,0 +1,100 @@
+{
+  "name": "docs-codinit",
+  "type": "module",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.12.4",
+  "description": "Learn how to build deploy and edit full-stack applications with CodinIT.dev. Open-source AI app builder powered by e2b.dev sandboxes.",
+  "author": "Gerome Elassaad <gerome.e24@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://docs.codinit.dev/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerome-Elassaad/docs.git"
+  },
+  "bugs": "https://github.com/Gerome-Elassaad/docs/issues",
+  "keywords": [
+    "codjnit",
+    "lovable-alternative",
+    "v0",
+    "bolt-new",
+    "app-building-tool"
+  ],
+  "main": "./nuxt.config.ts",
+  "files": [
+    "app",
+    "app.vue",
+    "assets",
+    "components",
+    "composables",
+    "i18n",
+    "layouts",
+    "lib",
+    "nuxt.config.ts",
+    "pages",
+    "plugins",
+    "types"
+  ],
+  "scripts": {
+    "build": "nuxt prepare && nuxt build www",
+    "dev": "nuxt prepare && nuxt dev www",
+    "generate": "nuxt prepare && nuxt generate www",
+    "preview": "nuxt prepare && nuxt preview www",
+    "typecheck": "nuxt prepare && nuxt typecheck",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.53",
+    "@iconify-json/vscode-icons": "^1.2.23",
+    "@nuxt/fonts": "^0.11.4",
+    "@nuxt/icon": "^1.14.0",
+    "@nuxt/image": "^1.10.0",
+    "@nuxt/scripts": "^0.11.8",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@nuxtjs/i18n": "^9.5.6",
+    "@nuxtjs/mdc": "^0.17.0",
+    "@tailwindcss/vite": "^4.1.11",
+    "@ztl-uwu/nuxt-content": "^2.13.8",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "fontaine": "^0.6.0",
+    "nuxt-og-image": "^5.1.8",
+    "reka-ui": "^2.3.1",
+    "shadcn-nuxt": "^2.2.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.11",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.8.3",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.16.1",
+    "@iconify-json/lucide-lab": "^1.2.3",
+    "@iconify-json/simple-icons": "^1.2.40",
+    "@iconify/utils": "^2.3.0",
+    "@nuxt/devtools": "^2.5.0",
+    "@nuxt/kit": "^3.17.5",
+    "@vueuse/core": "^13.4.0",
+    "@vueuse/nuxt": "^13.4.0",
+    "eslint": "^9.29.0",
+    "minisearch": "^7.1.2",
+    "nuxt": "^3.17.5",
+    "pkg-pr-new": "^0.0.53",
+    "shiki": "^3.7.0",
+    "taze": "^19.1.0",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1",
+    "vue-tsc": "^2.2.10"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@tailwindcss/oxide",
+      "sharp"
+    ],
+    "ignoredBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild",
+      "vue-demi"
+    ]
+  }
+}
