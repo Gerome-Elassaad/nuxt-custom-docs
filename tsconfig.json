@@ -1,3 +1,4 @@
 {
-  "extends": "./.nuxt/tsconfig.json"
+  // This is a stub tsconfig.json to make the IDE happy.
+  // The real tsconfig.json is in `www/tsconfig.json`.
 }
